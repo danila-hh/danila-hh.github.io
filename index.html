@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>LESS BEM</title>
+		
+		<link rel="stylesheet/less" type="text/css" href="css/styles.less">
+		<script src="js/less.js" type="text/javascript"></script>
+
+	</head>
+	<body>
+		<div class="header">
+			<div class="g-fixed-width">
+				<div class="header__logo">
+					<img src="img/logo.png" alt="" />
+				</div>
+				<div class="nav nav_left">
+					<span class="nav__item">
+						<a href="#" class="link link_nav link_white">Поиск</a>
+					</span>
+					<span class="nav__item">
+						<a href="#" class="link link_nav link_white">Компании</a>
+					</span>
+					<span class="nav__item">
+						<a href="#" class="link link_nav link_white">Мероприятия</a>
+					</span>
+				</div>
+				<div class="nav nav_right">
+					<span class="nav__item">
+						<a href="#" class="link link_nav link_green">Регистрация</a>
+					</span>
+					<span class="nav__item">
+						<a href="#" class="link link_nav link_white">Войти</a>
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="g-fixed-width">
+			<div class="search search_shifted">
+				<div class="search__field">
+					<input type="text" class="search__field-input" placeholder="Поиск"/>
+				</div>
+				<div class="search__btn">
+					<button class="btn">Найти</button>
+				</div>
+			</div>
+		</div>
+		<div class="g-lined g-clear">
+			<div class="g-fixed-width">
+				<div class="nav nav_left nav_shifted">
+					<span class="nav__item">
+						<span class="link link_nav link_gray">C вакансиями для менеджеров</span>
+					</span>
+					<span class="nav__item">
+						<span class="link link_nav link_gray">C вакансиями для менеджеров</span>
+					</span>
+				</div>
+				<div class="nav nav_right">
+					<span class="nav__item">
+						<span class="link link_nav link_gray link_with-icon"><i class="icon icon_location"></i>Москва</span>
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="content g-fixed-width">
+			<div class="content__section">
+				<div class="content__top">
+					<h1>Крупнейшие компании</h1>
+					<div class="content__filter">
+						<a href="#" class="link link_with-icon"><i class="icon icon_search"></i>Показать все 138 546 компаний</a>
+					</div>
+				</div>
+				<div class="tiles">
+					<div class="tiles__item">
+						<div class="company">
+							<div class="company__thumb">
+								<img src="imglib/1.jpg" alt=""/>
+							</div>
+							<div class="company__info">
+								<div class="company__info-title">Wow!</div>
+								<div class="company__info-vacancies">348 открытых вакансий</div>
+							</div>
+						</div>
+					</div>
+					<div class="tiles__item">
+						<div class="company">
+							<div class="company__thumb">
+								<img src="imglib/2.jpg" alt=""/>
+							</div>
+							<div class="company__info">
+								<div class="company__info-title">Fooooot</div>
+								<div class="company__info-vacancies">146 вакансий в Москве</div>
+							</div>
+						</div>
+					</div>
+					<div class="tiles__item">
+						<div class="company">
+							<div class="company__thumb">
+								<img src="imglib/3.jpg" alt=""/>
+							</div>
+							<div class="company__info">
+								<div class="company__info-title">Bird</div>
+								<div class="company__info-vacancies">146 вакансий в Москве</div>
+							</div>
+						</div>
+					</div>
+					<div class="tiles__item">
+						<div class="company">
+							<div class="company__thumb">
+								<img src="imglib/4.jpg" alt=""/>
+							</div>
+							<div class="company__info">
+								<div class="company__info-title">Anime</div>
+								<div class="company__info-vacancies">146 вакансий в Москве</div>
+							</div>
+						</div>
+					</div>
+					<div class="tiles__item">
+						<div class="company">
+							<div class="company__thumb">
+								<img src="imglib/5.jpg" alt=""/>
+							</div>
+							<div class="company__info">
+								<div class="company__info-title">Look</div>
+								<div class="company__info-vacancies">348 открытых вакансий</div>
+							</div>
+						</div>
+					</div>
+					<div class="tiles__item">
+						<div class="company">
+							<div class="company__thumb">
+								<img src="imglib/6.jpg" alt=""/>
+							</div>
+							<div class="company__info">
+								<div class="company__info-title">Hm?</div>
+								<div class="company__info-vacancies">348 открытых вакансий</div>
+							</div>
+						</div>
+					</div>
+					<div class="tiles__item">
+						<div class="company">
+							<div class="company__thumb">
+								<img src="imglib/7.jpg" alt=""/>
+							</div>
+							<div class="company__info">
+								<div class="company__info-title">Free</div>
+								<div class="company__info-vacancies">348 открытых вакансий</div>
+							</div>
+						</div>
+					</div>
+					<div class="tiles__item">
+						<div class="company">
+							<div class="company__thumb">
+								<img src="imglib/8.jpg" alt=""/>
+							</div>
+							<div class="company__info">
+								<div class="company__info-title">See</div>
+								<div class="company__info-vacancies">348 открытых вакансий</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="content__section">
+				<div class="tiles">
+					<div class="tiles__item">
+						<div class="category">
+							<div class="category__title">
+								<a href="#" class="link">Автомобильный бизнес</a>
+							</div>
+							<div class="category__info">
+								<div class="category__info-item g-clear">
+									<span class="category__info-item-link">
+										<a href="#" class="link">Major-Auto</a>
+									</span>
+									<span class="category__info-item-count">125</span>
+								</div>
+								<div class="category__info-item g-clear">
+									<span class="category__info-item-link">
+										<a href="#" class="link">RENAULT</a>
+									</span>
+									<span class="category__info-item-count">34</span>
+								</div>
+								<div class="category__info-item g-clear">
+									<span class="category__info-item-link">
+										<a href="#" class="link">Автоцентр Сити</a>
+									</span>
+									<span class="category__info-item-count">93</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tiles__item">
+						<div class="category">
+							<div class="category__title">
+								<a href="#" class="link">IT и телекоммуникации</a>
+							</div>
+							<div class="category__info">
+								<div class="category__info-item g-clear">
+									<span class="category__info-item-link">
+										<a href="#" class="link">MERA</a>
+									</span>
+									<span class="category__info-item-count">86</span>
+								</div>
+								<div class="category__info-item g-clear">
+									<span class="category__info-item-link">
+										<a href="#" class="link">ЭР-Телеком Холдинг</a>
+									</span>
+									<span class="category__info-item-count">76</span>
+								</div>
+								<div class="category__info-item g-clear">
+									<span class="category__info-item-link">
+										<a href="#" class="link">АСКОН</a>
+									</span>
+									<span class="category__info-item-count">55</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tiles__item">
+						<div class="category">
+							<div class="category__title">
+								<a href="#" class="link">Банки, инвестиции, лизинг</a>
+							</div>
+							<div class="category__info">
+								<div class="category__info-item g-clear">
+									<span class="category__info-item-link">
+										<a href="#" class="link">Домашние деньги</a>
+									</span>
+									<span class="category__info-item-count">54</span>
+								</div>
+								<div class="category__info-item g-clear">
+									<span class="category__info-item-link">
+										<a href="#" class="link">Московский Кредитный Банк</a>
+									</span>
+									<span class="category__info-item-count">14</span>
+								</div>
+								<div class="category__info-item g-clear">
+									<span class="category__info-item-link">
+										<a href="#" class="link">АБСОЛЮТ БАНК</a>
+									</span>
+									<span class="category__info-item-count">78</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tiles__item">
+						<div class="category">
+							<div class="category__title">
+								<a href="#" class="link">Фармацевтика</a>
+							</div>
+							<div class="category__info">
+								<div class="category__info-item g-clear">
+									<span class="category__info-item-link">
+										<a href="#" class="link">Renaissance Credit</a>
+									</span>
+									<span class="category__info-item-count">12</span>
+								</div>
+								<div class="category__info-item g-clear">
+									<span class="category__info-item-link">
+										<a href="#" class="link">Альфа-Банк</a>
+									</span>
+									<span class="category__info-item-count">34</span>
+								</div>
+								<div class="category__info-item g-clear">
+									<span class="category__info-item-link">
+										<a href="#" class="link">Cititbank</a>
+									</span>
+									<span class="category__info-item-count">45</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
